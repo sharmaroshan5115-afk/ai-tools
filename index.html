@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Tools Hub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>🚀 AI Tools Hub</h1>
+  <p>Discover Best AI Tools for Free</p>
+</header>
+
+<input type="text" id="search" placeholder="🔍 Search AI tools..." onkeyup="searchTool()">
+
+<div class="buttons">
+  <button onclick="filterCategory('all')">All</button>
+  <button onclick="filterCategory('writing')">Writing</button>
+  <button onclick="filterCategory('image')">Image</button>
+  <button onclick="filterCategory('video')">Video</button>
+</div>
+
+<div class="tools" id="toolList">
+
+  <div class="card writing">
+    <h2>ChatGPT</h2>
+    <p>Best AI for writing & chatting</p>
+    <a href="https://chat.openai.com" target="_blank">Use Tool</a>
+  </div>
+
+  <div class="card image">
+    <h2>Canva AI</h2>
+    <p>Create designs easily</p>
+    <a href="https://www.canva.com" target="_blank">Use Tool</a>
+  </div>
+
+  <div class="card image">
+    <h2>Midjourney</h2>
+    <p>Generate AI images</p>
+    <a href="#">Use Tool</a>
+  </div>
+
+  <div class="card writing">
+    <h2>Copy.ai</h2>
+    <p>AI content writing tool</p>
+    <a href="#">Use Tool</a>
+  </div>
+
+  <div class="card video">
+    <h2>Pictory</h2>
+    <p>AI video generator</p>
+    <a href="#">Use Tool</a>
+  </div>
+
+  <div class="card video">
+    <h2>Synthesia</h2>
+    <p>AI avatar video creator</p>
+    <a href="#">Use Tool</a>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 AI Tools Hub | Made by You 💻</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
