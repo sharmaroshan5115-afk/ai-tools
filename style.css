@@ -132,16 +132,13 @@ h1 {
   
   font-size: 220px;
   font-weight: bold;
-  
-  background: linear-gradient(45deg, #38bdf8, #0ea5e9, #6366f1);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 
-  opacity: 0.15;
+  color: rgba(255, 255, 255, 0.08); /* white transparent */
+
+  text-shadow: 0 0 20px #38bdf8;
+
   z-index: -1;
   pointer-events: none;
-
-  animation: float 6s ease-in-out infinite, glow 3s infinite alternate;
 }
 
 /* FLOAT ANIMATION */
